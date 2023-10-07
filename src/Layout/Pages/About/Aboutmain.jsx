@@ -6,29 +6,38 @@ import 'aos/dist/aos.css';
 const Aboutmain = () => {
     const teamData=useLoaderData();
     return (
-        <div>
+        <div >
+           
             <div className="h-[100vh] w-full bg-[#abce4e] bg-cover" style={{backgroundImage: 'url(https://point.moxcreative.com/beeparty/wp-content/uploads/sites/10/2022/05/bg_header_.png)'}}>
-            eeyyuef
-        </div>
-             <div className="space-y-9 max-w-7xl mx-auto">
+            <div className="text-center text-white flex justify-center items-center h-full">
+                <div className="max-w-3xl">
+                <h1 className="mb-5 text-5xl font-bold" data-aos="fade-right" data-aos-duration="2000"  data-aos-delay="100"> Where Celebrations Come to Life. </h1> 
+                <h1 className="mb-5 text-5xl font-bold" data-aos="fade-left" data-aos-duration="2000"data-aos-delay="100">Where Dreams Become Reality.</h1>
+               
+                {/* <button className="btn btn-primary">Get Started</button> */}
+                </div>
+  </div>
+</div>
+       
+             <div className="space-y-9 max-w-5xl mx-auto my-9">
             <div>
             <h2 className="text-3xl font-bold text-center">
             Your Celebration, Our Expertise
             </h2>
-            <div className="flex justify-between">
+            <div className="flex justify-between my-5">
                 <div className="text-center lg:text-justify w-1/2" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-sine" data-aos-delay="100">
                     <p className="py-6">Welcome to PartyPerfect Pro, where celebrations become unforgettable memories! Our mission is to transform your dreams into reality by crafting exceptional and immersive event experiences that leave you and your guests in awe.At PartyPerfect Pro, we believe that every event is a unique story waiting to be told. Our vision is to be the go-to party event management company that not only meets but exceeds your expectations, creating moments of pure joy and delight. From birthday parties to weddings events and everything in between, PartyPerfect Pro is your partner in celebration. We invite you to explore our world of creativity, precision, and dedication to create the perfect event that you and your guests will cherish forever. Join us in making memories that will last a lifetime!
                     </p>
                 </div>
                 <div className="" data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-sine" data-aos-delay="100">
-                    <img src={one} alt="" />
+                    <img src={one} alt="" className="w-full h-full" />
                 </div>
             </div>
             </div>
            
            
 
-            <div>
+            <div className="space-y-9">
             <div className="text-center space-y-4"> 
             <h2 className="text-3xl font-bold">
             OUR TEAM
