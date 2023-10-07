@@ -1,6 +1,6 @@
 import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut } from "firebase/auth";
 import { createContext, useEffect, useState } from "react";
-import app from "../Firebase/Firebase";
+import app from "../Firebase/Firebase.config";
 import PropTypes from 'prop-types';
 
 export const Authcontext =createContext(null)
@@ -10,7 +10,7 @@ const Provider =  ({children}) => {
     const [user,setuser]=useState(null)
 
     const createuser=(email,password) => {
-        console.log("dfhd")
+      
         return createUserWithEmailAndPassword(auth, email, password)
     }
 
@@ -23,7 +23,21 @@ const Provider =  ({children}) => {
         return signOut(auth)
         
     }
-   
+    
+    useEffect(()=>{
+        const unsubscribe=onAuthStateChanged(auth, (currentuser) => {
+            if (currentuser) {
+              const uid = currentuser.uid;
+              setuser(currentuser)
+              console.log('user',uid)
+             
+            } 
+            else {
+              console.log("User is signed out")
+            }
+          });
+          return ()=> unsubscribe()
+    },[])
     const authinfo={
         user, 
         createuser,

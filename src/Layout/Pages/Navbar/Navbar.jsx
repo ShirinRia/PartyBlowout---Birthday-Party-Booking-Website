@@ -1,15 +1,27 @@
 import { NavLink } from "react-router-dom";
-
-
+import { useContext } from "react";
+import { Authcontext } from "../../../Provider/Provider";
+import './Navbar.css'
 const Navbar = () => {
+  const {user,logout}=useContext(Authcontext)
+    const handlelogout=()=>{
+      logout()
+      .then(() => {
+        // Sign-out successful.
+      }).catch((error) => {
+       console.log(error.message)
+      });
+
+    }
     const links=<>
             <li className="mr-4"><NavLink to={'/'}>Home</NavLink></li>
-            <li className="mr-4"><NavLink to={'/login'}>About Us</NavLink></li>
-            <li className="mr-4"><NavLink to={'/register'}>Contact Us</NavLink></li>
+            <li className="mr-4"><NavLink to={'/about'}>About Us</NavLink></li>
+            <li className="mr-4"><NavLink to={'/register'}>Reviews</NavLink></li>
+            <li className="mr-4"><NavLink to={'/register'}>Magic Walls</NavLink></li>
    
     </>
     return (
-        <div>
+        <div  className="max-w-7xl mx-auto">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
     <div className="dropdown">
@@ -20,23 +32,23 @@ const Navbar = () => {
         {links}
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl">BirthdayBlowout</a>
+    <a className="normal-case text-xl">BirthdayBlowout</a>
                     </div>
                     <div className="navbar-center hidden lg:flex">
                         <ul className="menu-horizontal px-1">
                         {links}
                         </ul>
                     </div>
-                    {/* <div className="navbar-end">
+                     <div className="navbar-end">
                     {
                     user ?  
                     <div>
                         {user.email}
                         <a onClick={handlelogout} href="/" className="btn">Sign Out</a>
                     </div> 
-                    :  <NavLink to={'/login'} className="btn btn-primary"> Login </NavLink>
+                    :  <NavLink to={'/login'} className="btn bg-[#abce4e] text-white"> Get Started </NavLink>
     }
-                    </div> */}
+                    </div> 
             </div>
         </div>
     );

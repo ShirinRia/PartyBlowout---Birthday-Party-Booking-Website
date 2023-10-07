@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Emily Smith",
+        "designation": "Event Planner",
+        "image":"https://i.ibb.co/cgr2DYT/2.webp"
+    },
+    {
+        "id": 2,
+        "name": "Sophia Johnson",
+        "designation": "Decorator",
+        "image":"https://i.ibb.co/GQ5qKhF/4.webp"
+    },
+    {
+        "id": 3,
+        "name": "Daniel Brown",
+        "designation": "Photographer",
+        "image":"https://i.ibb.co/3YXSLr7/1.jpg"
+    },
+    {
+        "id": 4,
+        "name": "James Wilson",
+        "designation": "Entertainment Coordinator",
+        "image":"https://i.ibb.co/zrPcgHg/3.webp"
+    }
+]

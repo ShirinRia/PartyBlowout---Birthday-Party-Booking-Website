@@ -1,7 +1,32 @@
-import { Link } from "react-router-dom";
-
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Authcontext } from "../../../Provider/Provider";
+import { useContext } from "react";
 
 const Login = () => {
+  const {signin}=useContext(Authcontext)
+  const navigate=useNavigate()
+  const location=useLocation()
+  const handlelogin=e=>{
+    e.preventDefault();
+    const logform=new FormData(e.currentTarget)
+    console.log(logform.get('password'))
+    const email=logform.get('email')
+    const password=logform.get('password')
+    signin(email,password)
+    .then((userCredential) => {
+      // Signed in 
+      const currentuser = userCredential.user;
+      console.log(currentuser)
+
+      // navigate(location?.state ? location.state : '/')
+      navigate( '/')
+      
+      // ...
+    })
+    .catch((error) => {
+      console.log(error.message);
+    });
+  }
     return (
        
             
@@ -13,26 +38,23 @@ const Login = () => {
     </div>
     <div className="card flex-grow w-full  bg-base-100 text-center">
     <h3 className="text-[#04364A] text-5xl font-extrabold"> Login to Your Account</h3>
-      <form className="card-body">
+      <form className="card-body" onSubmit={handlelogin}>
        
         <div className="form-control">
          
-          <input type="email" placeholder="email" className="input input-bordered" required />
+          <input type="email" name="email" placeholder="email" className="input input-bordered" required />
         </div>
         <div className="form-control">
          
-          <input type="password" placeholder="password" className="input input-bordered" required />
+          <input type="password" name="password" placeholder="password" className="input input-bordered" required />
           
         </div>
         <div className="form-control mt-6">
-            
-          <button className="btn bg-[#04364A]">Login</button>
+          <input className="btn bg-[#04364A] text-white" type="submit" value="Login" />
         </div>
       </form>
     </div>
   </div>
-
-       
     );
 };
 
