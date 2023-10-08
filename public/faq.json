@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "tag": "popular",
+    "question": "How can I choose the perfect theme for my party?",
+    "answer": "Selecting the perfect theme for your party can be an exciting process! Start by considering the preferences of the guest of honor and the overall vibe you want to create. Whether it's a fun 80s retro party or an elegant wedding reception, think about what resonates with you and your guests. Once you have a theme in mind, reach out to our expert event planners who can provide suggestions, decorating ideas, and even source themed decorations. We'll help you turn your vision into a reality, ensuring that your party is a memorable and unique experience for everyone."
+  },
+  {
+    "id": 2,
+    "tag": "popular",
+    "question": "What services do you offer for birthday parties?",
+    "answer": "We offer a comprehensive range of services for birthday parties. Our offerings include venue selection, catering, entertainment, decorations, and much more. We can tailor our services to suit your needs, whether you're planning a small intimate gathering or a large birthday bash. Our experienced team is here to make sure your birthday celebration is stress-free and filled with joy, so you can focus on making memories with your loved ones."
+  },
+  {
+    "id": 3,
+    "tag": "popular",
+    "question": "Can you help me find a unique venue for my engagement party?",
+    "answer": "Absolutely! Finding a unique venue that reflects your style and personality is crucial for your engagement party. Our venue experts have a wide network of options, from elegant ballrooms to intimate garden settings. Share your vision with us, and we'll assist you in discovering the perfect space that sets the mood for your special announcement. We'll also help you with the logistics, so you can relax and enjoy this significant milestone in your life."
+  },
+  {
+    "id": 4,
+    "tag": "common",
+    "question": "What should I consider when planning an anniversary celebration?",
+    "answer": "Planning an anniversary celebration requires thoughtful consideration. Start by reflecting on your journey together as a couple and what your milestone means to you. Think about whether you want an intimate gathering or a grand celebration. Consider your budget, guest list, and the type of atmosphere you want to create. Our event planners can assist you in designing a meaningful celebration that captures your love story and creates lasting memories for you and your guests."
+  },
+  {
+    "id": 5,
+    "tag": "common",
+    "question": "How far in advance should I book your services for my party?",
+    "answer": "To ensure the availability of our services, we recommend booking at least 3-6 months in advance, especially for popular event dates. However, we can accommodate last-minute requests when possible. Keep in mind that booking early allows for more flexibility in selecting venues, vendors, and securing your preferred date and time."
+  },
+  {
+    "id": 6,
+    "tag": "popular",
+    "question": "What types of entertainment options do you offer for parties?",
+    "answer": "We offer a wide range of entertainment options to keep your party lively and enjoyable. From live bands and DJs to interactive games, photo booths, and themed performers, we have something to suit every taste and theme. Our goal is to provide you and your guests with a memorable and entertaining experience that complements the overall ambiance of your event."
+  },
+  {
+    "id": 7,
+    "tag": "common",
+    "question": "Can I bring my own decorations to the venue?",
+    "answer": "Certainly! You're welcome to bring your own decorations to personalize the venue and make it uniquely yours. However, please coordinate with our team to ensure that your decorations adhere to any venue guidelines or restrictions. We're here to help you create the perfect party atmosphere."
+  },
+  {
+    "id": 8,
+    "tag": "popular",
+    "question": "What are the catering options for my party?",
+    "answer": "We offer a diverse range of catering options to cater to your party's culinary preferences. Whether you prefer a gourmet buffet, a formal plated dinner, or themed cuisine stations, our culinary team can create a menu that satisfies your tastes and dietary requirements. We also offer vegetarian, vegan, and gluten-free options to accommodate all your guests."
+  },
+  {
+    "id": 9,
+    "tag": "common",
+    "question": "Do you provide transportation services for guests to and from the venue?",
+    "answer": "Yes, we can arrange transportation services to ensure your guests arrive safely and conveniently at the party venue. Whether you need shuttle buses, limousines, or other transportation options, our team can assist in coordinating logistics to make transportation seamless for your event."
+  },
+  {
+    "id": 10,
+    "tag": "popular",
+    "question": "How do I make a reservation for my party?",
+    "answer": "Booking your party with us is easy! Simply visit our website or contact our customer service team to discuss your event's details. We'll guide you through the process, help you choose services, and provide you with a customized quote. Once you're ready, we'll secure your reservation and start planning your dream party together."
+  }
+]

@@ -16,8 +16,8 @@ const Navbar = () => {
     const links=<>
             <li className="mr-4"><NavLink to={'/'}>Home</NavLink></li>
             <li className="mr-4"><NavLink to={'/about'}>About Us</NavLink></li>
-            <li className="mr-4"><NavLink to={'/register'}>Reviews</NavLink></li>
-            <li className="mr-4"><NavLink to={'/register'}>Magic Walls</NavLink></li>
+            <li className="mr-4"><NavLink to={'/reviews'}>Reviews</NavLink></li>
+            <li className="mr-4"><NavLink to={'/faq'}>Magic Walls</NavLink></li>
    
     </>
     return (

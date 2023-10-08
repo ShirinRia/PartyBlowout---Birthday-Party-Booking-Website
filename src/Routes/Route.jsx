@@ -5,6 +5,8 @@ import Login from "../Layout/Pages/Login/Login";
 import Register from "../Layout/Pages/Register/Register";
 import About from "../Layout/Pages/About/About";
 import Aboutmain from "../Layout/Pages/About/Aboutmain";
+import Reviews from "../Layout/Pages/Review/Reviews";
+import Faq from "../Layout/Pages/Faq/Faq";
 
 const Route = createBrowserRouter([
     {
@@ -29,6 +31,16 @@ const Route = createBrowserRouter([
           path: "/about",
           element: <Aboutmain />,
           loader:() =>fetch('/team.json'),
+        },
+        {
+          path: "/reviews",
+          element: <Reviews />,
+          loader:() =>fetch('/review.json'),
+        },
+        {
+          path: "/faq",
+          element: <Faq/>,
+          loader:() =>fetch('/faq.json'),
         },
       ],
     },
