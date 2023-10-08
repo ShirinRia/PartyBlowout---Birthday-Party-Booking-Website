@@ -3,8 +3,10 @@ import About from "./About";
 import one from '../../../assets/1.jpg'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Contactcard from "./Contactcard";
 const Aboutmain = () => {
     const teamData=useLoaderData();
+   
     return (
         <div >
            
@@ -17,8 +19,8 @@ const Aboutmain = () => {
                 {/* <button className="btn btn-primary">Get Started</button> */}
                 </div>
   </div>
-</div>
-       
+            </div>
+       {/* history */}
              <div className="space-y-9 max-w-5xl mx-auto my-9">
             <div>
             <h2 className="text-3xl font-bold text-center">
@@ -35,8 +37,7 @@ const Aboutmain = () => {
             </div>
             </div>
            
-           
-
+           {/* team */}
             <div className="space-y-9">
             <div className="text-center space-y-4"> 
             <h2 className="text-3xl font-bold">
@@ -57,7 +58,11 @@ const Aboutmain = () => {
             </div>
             
             </div>
-           
+           <div >
+                <Contactcard>
+
+                </Contactcard>
+           </div>
         </div>
         </div>
        

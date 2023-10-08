@@ -6,6 +6,7 @@ import Register from "../Layout/Pages/Register/Register";
 import Aboutmain from "../Layout/Pages/About/Aboutmain";
 import Reviews from "../Layout/Pages/Review/Reviews";
 import Faq from "../Layout/Pages/Faq/Faq";
+import Servicedetails from "../Layout/Pages/Services/Servicedetails";
 
 const Route = createBrowserRouter([
     {
@@ -17,6 +18,12 @@ const Route = createBrowserRouter([
           path: "/",
           element: <Home />,
          
+        },
+        {
+      
+          path: "/servicedetails/:id",
+          element: <Servicedetails />,
+          // loader:()=>fetch('/donationdata.json'),
         },
         {
           path: "/login",

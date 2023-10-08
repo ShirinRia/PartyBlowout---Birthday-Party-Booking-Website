@@ -13,13 +13,13 @@ const Reviews = () => {
     return (
         <div className="my-12">
            
-           <div>
+           <div className="mt-16">
            <h3 className="mb-5 text-5xl font-bold text-[#abce4e] text-center mb-8">
            Wedding Reception
             </h3>
 
            <div className="flex gap-6">
-           <Marquee pauseOnClick="true">
+           <Marquee pauseOnHover="true">
            {
                     wedding.map((review)=>
                        
@@ -33,12 +33,12 @@ const Reviews = () => {
                
             </div>
            </div>
-           <div>
+           <div className="mt-16">
            <h3 className="mb-5 text-5xl font-bold text-[#abce4e] text-center mb-8">
            Birthday Party
             </h3>
            <div className="flex gap-6">
-           <Marquee pauseOnClick="true" direction="right">
+           <Marquee pauseOnHover="true" direction="right">
            {
                 birthday.map(review=><Review key={review.id}
                 reviewdata={review}>
@@ -50,12 +50,12 @@ const Reviews = () => {
             </div>
            </div>
 
-            <div>
+            <div className="mt-16">
             <h3 className="mb-5 text-5xl font-bold text-[#abce4e] text-center mb-8">
            Karaoke Night
             </h3>
             <div className="flex gap-6">
-            <Marquee pauseOnClick="true">
+            <Marquee pauseOnHover="true">
             {
                     Karaoke.map(review=><Review key={review.id}
                     reviewdata={review}>
@@ -66,12 +66,12 @@ const Reviews = () => {
                
             </div>
             </div>
-           <div>
+           <div className="mt-16">
            <h3 className="mb-5 text-5xl font-bold text-[#abce4e] text-center mb-8">
            80s Retro Party
             </h3>
            <div className="flex gap-6">
-           <Marquee pauseOnClick="true" direction="right">
+           <Marquee pauseOnHover="true" direction="right">
            {
                     Retro.map(review=><Review key={review.id}
                     reviewdata={review}>
@@ -83,12 +83,12 @@ const Reviews = () => {
             </div>
            </div>
            
-                <div>
+                <div className="mt-16">
                 <h3 className="mb-5 text-5xl font-bold text-[#abce4e] text-center mb-8">
                 Engagement Party
             </h3>
                 <div className="flex gap-6">
-                <Marquee pauseOnClick="true">
+                <Marquee pauseOnHover="true">
                 {
                     Engagement.map(review=><Review key={review.id}
                     reviewdata={review}>
@@ -100,12 +100,12 @@ const Reviews = () => {
             </div>
                 </div>
            
-            <div>
+            <div className="mt-16">
             <h3 className="mb-5 text-5xl font-bold text-[#abce4e] text-center mb-8">
             Anniversary Celebration
             </h3>
             <div className="flex gap-6">
-            <Marquee pauseOnClick="true" direction="right">
+            <Marquee pauseOnHover="true" direction="right">
             {
                     Anniversary.map(review=><Review key={review.id}
                     reviewdata={review}>

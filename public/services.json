@@ -2,31 +2,483 @@
   {
       "id": "b4f927e3",
       "title": "Birthday Party",
-      "details": "Celebrate a fantastic birthday party with us! Whether it's a child's first birthday or a milestone celebration, our team will create a magical experience filled with games, decorations, and delicious cakes to make your day unforgettable."
+      "details": "Celebrate a fantastic birthday party with us! Whether it's a child's first birthday or a milestone celebration, our team will create a magical experience filled with games, decorations, and delicious cakes to make your day unforgettable.",
+      "categories":[
+        {
+            "title": "Beach Wedding Package",
+            "price": "$8,500",
+            "image": "https://example.com/beach-wedding.jpg",
+            "features": [
+              "Oceanfront ceremony",
+              "Beachside reception",
+              "Tropical flower decorations",
+              "Professional photographer",
+              "Live steel drum band"
+            ]
+          }
+          ,
+          {
+            "title": "Vintage Garden Wedding",
+            "price": "$10,000",
+            "image": "https://example.com/vintage-garden-wedding.jpg",
+            "features": [
+              "Charming garden venue",
+              "Vintage decor and furniture",
+              "Custom floral arrangements",
+              "String quartet performance",
+              "Vintage photo booth"
+            ]
+          }
+          ,
+          {
+            "title": "Rustic Barn Wedding",
+            "price": "$7,200",
+            "image": "https://example.com/rustic-barn-wedding.jpg",
+            "features": [
+              "Rustic barn venue",
+              "Wooden decor and lighting",
+              "Farm-to-table catering",
+              "Live country band",
+              "Barnyard games"
+            ]
+          }
+          ,
+          {
+            "title": "Urban Loft Wedding",
+            "price": "$12,500",
+            "image": "https://example.com/urban-loft-wedding.jpg",
+            "features": [
+              "Chic loft venue in the city",
+              "Modern industrial decor",
+              "Gourmet cuisine",
+              "DJ and dance floor",
+              "City skyline views"
+            ]
+          }
+          ,
+          {
+            "title": "Romantic Castle Wedding",
+            "price": "$15,000",
+            "image": "https://example.com/castle-wedding.jpg",
+            "features": [
+              "Historic castle venue",
+              "Elegant ballroom reception",
+              "Luxurious floral arrangements",
+              "Classical string quartet",
+              "Fireworks display"
+            ]
+          }
+      ]
+      
   },
+  
   {
       "id": "a2c6f5d1",
       "title": "Wedding Reception",
-      "details": "Make your wedding reception an enchanting event. Our expert planners will ensure a seamless evening filled with love, laughter, and beautiful memories. From elegant decor to gourmet cuisine, your dream reception awaits."
+      "details": "Make your wedding reception an enchanting event. Our expert planners will ensure a seamless evening filled with love, laughter, and beautiful memories. From elegant decor to gourmet cuisine, your dream reception awaits.",
+      "categories":[
+        {
+            "title": "Park Picnic Birthday",
+            "price": 250,
+            "image": "https://example.com/park-birthday.jpg",
+            "features": [
+              "Scenic park location",
+              "Picnic setup with blankets and cushions",
+              "Outdoor games and activities",
+              "Customized birthday cake",
+              "Party favors for kids"
+            ]
+          }
+          
+          ,
+          {
+            "title": "Superhero Extravaganza",
+            "price": 350,
+            "image": "https://example.com/superhero-birthday.jpg",
+            "features": [
+              "Superhero-themed decorations",
+              "Costume dress-up for kids",
+              "Superhero training activities",
+              "Superhero cake and snacks",
+              "Party favors and capes for all attendees"
+            ]
+          }
+          
+          ,
+          {
+            "title": "Princess Tea Party",
+            "price": 300,
+            "image": "https://example.com/princess-birthday.jpg",
+            "features": [
+              "Elegant tea party setup",
+              "Princess dress-up and crown-making",
+              "Tea and snacks fit for royalty",
+              "Storytime with a fairy tale princess",
+              "Tiara party favors"
+            ]
+          }
+          
+          ,
+          {
+            "title": "Sports Fan's Dream",
+            "price": 280,
+            "image": "https://example.com/sports-birthday.jpg",
+            "features": [
+              "Sports-themed decorations",
+              "Variety of sports activities (football, soccer, basketball)",
+              "Pizza and snacks for sports fans",
+              "Trophy and medals for participants",
+              "Sports-themed goody bags"
+            ]
+          }
+          
+          ,
+          {
+            "title": "Underwater Adventure",
+            "price": 320,
+            "image": "https://example.com/underwater-birthday.jpg",
+            "features": [
+              "Underwater-themed decorations",
+              "Mermaid and pirate dress-up",
+              "Treasure hunt and underwater games",
+              "Seafood and snacks",
+              "Seashell party favors"
+            ]
+          }          
+      ]
   },
   {
       "id": "e8d3b9a7",
       "title": "Anniversary Celebration",
-      "details": "Celebrate years of love and togetherness with an anniversary celebration that captures your unique journey. Our team will create a romantic atmosphere with personalized touches, ensuring your special day is as memorable as your love story."
+      "details": "Celebrate years of love and togetherness with an anniversary celebration that captures your unique journey. Our team will create a romantic atmosphere with personalized touches, ensuring your special day is as memorable as your love story.",
+      "categories": [
+        {
+          "title": "Silver Anniversary Package",
+          "price": "$1,299",
+          "image": "https://example.com/silver_anniversary.jpg",
+          "features": [
+            "Venue rental for 5 hours",
+            "Elegant decoration and lighting",
+            "Gourmet three-course dinner",
+            "Live music performance",
+            "Complimentary champagne toast",
+            "Professional event coordinator"
+          ]
+        },
+        {
+          "title": "Golden Anniversary Extravaganza",
+          "price": "$2,499",
+          "image": "https://example.com/golden_anniversary.jpg",
+          "features": [
+            "Luxurious ballroom rental for 6 hours",
+            "Opulent decor with gold accents",
+            "Five-course gourmet meal",
+            "Live entertainment by a renowned band",
+            "Customized anniversary cake",
+            "Dedicated event planner and staff"
+          ]
+        },
+        {
+          "title": "Rustic Anniversary Retreat",
+          "price": "$899",
+          "image": "https://example.com/rustic_anniversary.jpg",
+          "features": [
+            "Charming barn venue for 4 hours",
+            "Rustic and vintage decor",
+            "Barbecue buffet with local flavors",
+            "Acoustic guitar and folk music",
+            "Bonfire with marshmallow roasting",
+            "Friendly on-site coordinator"
+          ]
+        },
+        {
+          "title": "Intimate Beachside Anniversary",
+          "price": "$1,899",
+          "image": "https://example.com/beachside_anniversary.jpg",
+          "features": [
+            "Private beachfront setup for 5 hours",
+            "Romantic seaside decor",
+            "Seafood and wine tasting menu",
+            "Live acoustic guitar and sunset serenade",
+            "Beach bonfire with s'mores",
+            "Dedicated beach concierge"
+          ]
+        },
+        {
+          "title": "Classic Dinner and Dance Anniversary",
+          "price": "$999",
+          "image": "https://example.com/classic_anniversary.jpg",
+          "features": [
+            "Elegant ballroom rental for 5 hours",
+            "Timeless black and white decor",
+            "Plated dinner with multiple cuisine options",
+            "Live jazz band for dancing",
+            "Custom anniversary cake",
+            "Experienced event coordinator"
+          ]
+        },
+        {
+          "title": "Outdoor Garden Anniversary Affair",
+          "price": "$1,399",
+          "image": "https://example.com/garden_anniversary.jpg",
+          "features": [
+            "Lush garden venue for 6 hours",
+            "Natural garden decor with fairy lights",
+            "Gourmet picnic-style buffet",
+            "Acoustic guitar and folk music",
+            "Outdoor games and activities",
+            "Professional garden event planner"
+          ]
+        }
+      ]
+      
+      
   },
   {
       "id": "f1a6c8e2",
       "title": "80s Retro Party",
-      "details": "Step back in time to the 1980s with our retro party! Get ready for neon colors, iconic music, and totally tubular fun. Break out your leg warmers and join us for a blast from the past that you won't want to miss."
+      "details": "Step back in time to the 1980s with our retro party! Get ready for neon colors, iconic music, and totally tubular fun. Break out your leg warmers and join us for a blast from the past that you won't want to miss.",
+      "categories": [
+        {
+          "title": "Neon Sunglasses",
+          "price": "$12.99",
+          "image": "https://example.com/80s-retro-sunglasses.jpg",
+          "features": [
+            "UV protection",
+            "Assorted neon colors",
+            "Iconic 80s style",
+            "Durable plastic frame"
+          ]
+        },
+        {
+          "title": "Bluetooth Boombox Speaker",
+          "price": "$49.99",
+          "image": "https://example.com/80s-boombox-speaker.jpg",
+          "features": [
+            "Wireless Bluetooth connectivity",
+            "Classic boombox design",
+            "FM radio tuner",
+            "Rechargeable battery"
+          ]
+        },
+        {
+          "title": "Arcade Video Game Console",
+          "price": "$199.99",
+          "image": "https://example.com/80s-arcade-console.jpg",
+          "features": [
+            "Over 100 classic games",
+            "Joystick and button controls",
+            "HDMI output",
+            "Retro pixel graphics"
+          ]
+        },
+        {
+          "title": "Roller Skates",
+          "price": "$69.99",
+          "image": "https://example.com/80s-roller-skates.jpg",
+          "features": [
+            "High-top design",
+            "Wheels with smooth glide",
+            "Available in multiple colors",
+            "Durable leather construction"
+          ]
+        },
+        {
+          "title": "Cassette Tape Coasters",
+          "price": "$9.99",
+          "image": "https://example.com/80s-cassette-coasters.jpg",
+          "features": [
+            "Set of 4 coasters",
+            "Realistic cassette tape design",
+            "Protects surfaces from condensation",
+            "Great conversation starter"
+          ]
+        },
+        {
+          "title": "Dance Party LED Lights",
+          "price": "$34.99",
+          "image": "https://example.com/80s-dance-party-lights.jpg",
+          "features": [
+            "Multi-color LED lights",
+            "Sound-activated dance modes",
+            "Easy installation",
+            "Create a vibrant dance floor"
+          ]
+        }
+      ]
+      
+
   },
   {
       "id": "k9n3g2o1",
       "title": "Karaoke Night",
-      "details": "Sing your heart out at our Karaoke Night! Gather your friends and family for a night of music, laughter, and unforgettable performances. Whether you're a superstar or just here for the fun, it's your time to shine on stage."
+      "details": "Sing your heart out at our Karaoke Night! Gather your friends and family for a night of music, laughter, and unforgettable performances. Whether you're a superstar or just here for the fun, it's your time to shine on stage.",
+      "categories":  [
+        {
+          "title": "Classic Karaoke Night",
+          "price": 25.99,
+          "image": "https://example.com/classic-karaoke-night.jpg",
+          "features": [
+            "Access to a vast library of classic karaoke songs",
+            "High-quality sound system",
+            "Karaoke host to assist with song selection",
+            "Food and drink specials",
+            "Themed decor for a nostalgic vibe"
+          ]
+        },
+        {
+          "title": "Rock 'n' Roll Karaoke Night",
+          "price": 29.99,
+          "image": "https://example.com/rock-n-roll-karaoke-night.jpg",
+          "features": [
+            "Live band accompaniment for a rockstar experience",
+            "Extensive selection of rock and alternative songs",
+            "Rock-themed costumes and props",
+            "Rock trivia contests with prizes",
+            "Food and drink menu inspired by iconic rock bands"
+          ]
+        },
+        {
+          "title": "80s Karaoke Night",
+          "price": 22.99,
+          "image": "https://example.com/80s-karaoke-night.jpg",
+          "features": [
+            "A journey back in time with the best hits from the 80s",
+            "80s-themed costumes encouraged",
+            "Neon lighting and retro decor",
+            "Trivia games with 80s pop culture questions",
+            "Specialty cocktails inspired by the era"
+          ]
+        },
+        {
+          "title": "Country Karaoke Night",
+          "price": 27.99,
+          "image": "https://example.com/country-karaoke-night.jpg",
+          "features": [
+            "Live acoustic band playing country classics",
+            "Wide selection of country songs to choose from",
+            "Cowboy hats and boots welcome",
+            "Line dancing lessons for beginners",
+            "Southern-style BBQ and drinks"
+          ]
+        },
+        {
+          "title": "Pop Diva Karaoke Night",
+          "price": 24.99,
+          "image": "https://example.com/pop-diva-karaoke-night.jpg",
+          "features": [
+            "Show off your inner pop diva with chart-topping hits",
+            "Glamorous red carpet entrance",
+            "Costume accessories to channel your favorite divas",
+            "Lip-sync battles with prizes",
+            "Signature cocktails inspired by pop icons"
+          ]
+        },
+        {
+          "title": "Latin Fiesta Karaoke Night",
+          "price": 31.99,
+          "image": "https://example.com/latin-fiesta-karaoke-night.jpg",
+          "features": [
+            "Salsa, merengue, reggaeton, and more Latin hits",
+            "Latin dance lessons before karaoke starts",
+            "Colorful decorations and fiesta atmosphere",
+            "Best dressed Latin-themed costume contest",
+            "Authentic Latin cuisine and cocktails"
+          ]
+        }
+      ]
+      
   },
   {
       "id": "m7t4e5g8",
       "title": "Engagement Party",
-      "details": "Announce your engagement in style! Our engagement party planning team will create an elegant and joyous event to celebrate your love story. From champagne toasts to heartfelt moments, it's the perfect start to your journey together."
+      "details": "Announce your engagement in style! Our engagement party planning team will create an elegant and joyous event to celebrate your love story. From champagne toasts to heartfelt moments, it's the perfect start to your journey together.",
+      "categories": [
+        {
+          "title": "Elegant Evening Engagement",
+          "price": "$3,500",
+          "image": "https://example.com/images/elegant_evening_engagement.jpg",
+          "features": [
+            "Venue Rental for 4 Hours",
+            "Professional Event Planner",
+            "Catering for 50 Guests",
+            "Live Jazz Band",
+            "Custom Floral Decorations",
+            "Photography Services",
+            "Open Bar with Signature Cocktails"
+          ]
+        },
+        {
+          "title": "Garden Romance Engagement",
+          "price": "$2,800",
+          "image": "https://example.com/images/garden_romance_engagement.jpg",
+          "features": [
+            "Outdoor Garden Venue",
+            "Personalized Event Coordination",
+            "Picnic-Style Catering for 40 Guests",
+            "Acoustic Guitarist",
+            "Floral Arch and Decor",
+            "Engagement Photoshoot",
+            "Wine and Cheese Tasting"
+          ]
+        },
+        {
+          "title": "Beachside Bliss Engagement",
+          "price": "$4,200",
+          "image": "https://example.com/images/beachside_bliss_engagement.jpg",
+          "features": [
+            "Beachfront Venue",
+            "Dedicated Event Coordinator",
+            "Seaside Buffet for 60 Guests",
+            "Steel Drum Band",
+            "Tropical Floral Arrangements",
+            "Professional Videography",
+            "Tiki Bar with Beach Cocktails"
+          ]
+        },
+        {
+          "title": "Rustic Barn Engagement",
+          "price": "$2,200",
+          "image": "https://example.com/images/rustic_barn_engagement.jpg",
+          "features": [
+            "Charming Barn Venue",
+            "Custom Event Planning",
+            "BBQ Buffet for 30 Guests",
+            "Country Folk Band",
+            "Mason Jar Centerpieces",
+            "Engagement Photoshoot",
+            "Craft Beer Tasting"
+          ]
+        },
+        {
+          "title": "City Chic Engagement",
+          "price": "$3,800",
+          "image": "https://example.com/images/city_chic_engagement.jpg",
+          "features": [
+            "Stylish City Loft Venue",
+            "Experienced Event Coordinator",
+            "Gourmet Dinner for 50 Guests",
+            "Live DJ and Dance Floor",
+            "Modern Floral Arrangements",
+            "Professional Photography",
+            "Signature Cocktails and Craft Beer"
+          ]
+        },
+        {
+          "title": "Vintage Glam Engagement",
+          "price": "$3,000",
+          "image": "https://example.com/images/vintage_glam_engagement.jpg",
+          "features": [
+            "Historic Mansion Venue",
+            "Vintage Event Stylist",
+            "Champagne Brunch for 40 Guests",
+            "Jazz Quartet",
+            "Antique Decor and Centerpieces",
+            "Engagement Photoshoot",
+            "Mimosa Bar"
+          ]
+        }
+      ]
+      
   }
 ]

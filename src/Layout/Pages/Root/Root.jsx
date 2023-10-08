@@ -1,9 +1,10 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
+import Allfooter from "../Allfooter/Allfooter";
 
 const Root = () => {
     return (
-        <div>
+        <div className="bg-black">
             <Navbar>
                 
             </Navbar>
@@ -11,6 +12,7 @@ const Root = () => {
             <Outlet>
 
             </Outlet>
+            <Allfooter></Allfooter>
         </div>
     );
 };
