@@ -3,7 +3,6 @@ import Home from "../Layout/Pages/Home/Home";
 import Root from "../Layout/Pages/Root/Root";
 import Login from "../Layout/Pages/Login/Login";
 import Register from "../Layout/Pages/Register/Register";
-import About from "../Layout/Pages/About/About";
 import Aboutmain from "../Layout/Pages/About/Aboutmain";
 import Reviews from "../Layout/Pages/Review/Reviews";
 import Faq from "../Layout/Pages/Faq/Faq";
@@ -42,6 +41,7 @@ const Route = createBrowserRouter([
           element: <Faq/>,
           loader:() =>fetch('/faq.json'),
         },
+        
       ],
     },
   ]);

@@ -5,9 +5,9 @@ import Faqcard from "./Faqcard";
 const Faq = () => {
     const faqs=useLoaderData()
     const popular=faqs.filter(popfaq => popfaq.tag==='popular')
-    console.log(popular)
+    // console.log(popular)
     const common=faqs.filter(popfaq => popfaq.tag==='common')
-    console.log(common)
+    // console.log(common)
     return (
         <div className="my-14 space-y-14">
             <div className="">
