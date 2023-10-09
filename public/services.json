@@ -2,7 +2,86 @@
   {
       "id": "b4f927e3",
       "title": "Birthday Party",
-      "details": "Celebrate a fantastic birthday party with us! Whether it's a child's first birthday or a milestone celebration, our team will create a magical experience filled with games, decorations, and delicious cakes to make your day unforgettable.",
+      "details": "Celebrate a fantastic birthday party with us filled with games, decorations, and delicious cakes to make your day unforgettable!",
+      "cover":"https://i.ibb.co/Bt7YX1S/pexels-ivan-samkov-8104206.jpg",
+      "categories":[
+        {
+            "title": "Park Picnic Birthday",
+            "price": "$250",
+            "image": "https://example.com/park-birthday.jpg",
+            "features": [
+              "Scenic park location",
+              "Picnic setup with blankets and cushions",
+              "Outdoor games and activities",
+              "Customized birthday cake",
+              "Party favors for kids"
+            ]
+          }
+          
+          ,
+          {
+            "title": "Superhero Extravaganza",
+            "price": "$350",
+            "image": "https://example.com/superhero-birthday.jpg",
+            "features": [
+              "Superhero-themed decorations",
+              "Costume dress-up for kids",
+              "Superhero training activities",
+              "Superhero cake and snacks",
+              "Party favors and capes for all attendees"
+            ]
+          }
+          
+          ,
+          {
+            "title": "Princess Tea Party",
+            "price": "$300",
+            "image": "https://example.com/princess-birthday.jpg",
+            "features": [
+              "Elegant tea party setup",
+              "Princess dress-up and crown-making",
+              "Tea and snacks fit for royalty",
+              "Storytime with a fairy tale princess",
+              "Tiara party favors"
+            ]
+          }
+          
+          ,
+          {
+            "title": "Sports Fan's Dream",
+            "price": "$280",
+            "image": "https://example.com/sports-birthday.jpg",
+            "features": [
+              "Sports-themed decorations",
+              "Variety of sports activities (football, soccer, basketball)",
+              "Pizza and snacks for sports fans",
+              "Trophy and medals for participants",
+              "Sports-themed goody bags"
+            ]
+          }
+          
+          ,
+          {
+            "title": "Underwater Adventure",
+            "price": "$320",
+            "image": "https://example.com/underwater-birthday.jpg",
+            "features": [
+              "Underwater-themed decorations",
+              "Mermaid and pirate dress-up",
+              "Treasure hunt and underwater games",
+              "Seafood and snacks",
+              "Seashell party favors"
+            ]
+          }          
+      ]
+      
+  },
+  
+  {
+      "id": "a2c6f5d1",
+      "title": "Wedding Reception",
+      "details": "Make your wedding reception an enchanting event filled with love, laughter, and beautiful memories.",
+      "cover":"https://i.ibb.co/vL1z1HD/pexels-viresh-studio-2060240.jpg",
       "categories":[
         {
             "title": "Beach Wedding Package",
@@ -69,88 +148,12 @@
             ]
           }
       ]
-      
-  },
-  
-  {
-      "id": "a2c6f5d1",
-      "title": "Wedding Reception",
-      "details": "Make your wedding reception an enchanting event. Our expert planners will ensure a seamless evening filled with love, laughter, and beautiful memories. From elegant decor to gourmet cuisine, your dream reception awaits.",
-      "categories":[
-        {
-            "title": "Park Picnic Birthday",
-            "price": 250,
-            "image": "https://example.com/park-birthday.jpg",
-            "features": [
-              "Scenic park location",
-              "Picnic setup with blankets and cushions",
-              "Outdoor games and activities",
-              "Customized birthday cake",
-              "Party favors for kids"
-            ]
-          }
-          
-          ,
-          {
-            "title": "Superhero Extravaganza",
-            "price": 350,
-            "image": "https://example.com/superhero-birthday.jpg",
-            "features": [
-              "Superhero-themed decorations",
-              "Costume dress-up for kids",
-              "Superhero training activities",
-              "Superhero cake and snacks",
-              "Party favors and capes for all attendees"
-            ]
-          }
-          
-          ,
-          {
-            "title": "Princess Tea Party",
-            "price": 300,
-            "image": "https://example.com/princess-birthday.jpg",
-            "features": [
-              "Elegant tea party setup",
-              "Princess dress-up and crown-making",
-              "Tea and snacks fit for royalty",
-              "Storytime with a fairy tale princess",
-              "Tiara party favors"
-            ]
-          }
-          
-          ,
-          {
-            "title": "Sports Fan's Dream",
-            "price": 280,
-            "image": "https://example.com/sports-birthday.jpg",
-            "features": [
-              "Sports-themed decorations",
-              "Variety of sports activities (football, soccer, basketball)",
-              "Pizza and snacks for sports fans",
-              "Trophy and medals for participants",
-              "Sports-themed goody bags"
-            ]
-          }
-          
-          ,
-          {
-            "title": "Underwater Adventure",
-            "price": 320,
-            "image": "https://example.com/underwater-birthday.jpg",
-            "features": [
-              "Underwater-themed decorations",
-              "Mermaid and pirate dress-up",
-              "Treasure hunt and underwater games",
-              "Seafood and snacks",
-              "Seashell party favors"
-            ]
-          }          
-      ]
   },
   {
       "id": "e8d3b9a7",
       "title": "Anniversary Celebration",
-      "details": "Celebrate years of love and togetherness with an anniversary celebration that captures your unique journey. Our team will create a romantic atmosphere with personalized touches, ensuring your special day is as memorable as your love story.",
+      "details": "Celebrate years of love with a celebration that captures your unique journey and ensure your special day is as memorable as your love story.",
+      "cover": "https://i.ibb.co/1RTYZZS/pexels-nataliya-vaitkevich-7826296.jpg",
       "categories": [
         {
           "title": "Silver Anniversary Package",
@@ -237,7 +240,8 @@
   {
       "id": "f1a6c8e2",
       "title": "80s Retro Party",
-      "details": "Step back in time to the 1980s with our retro party! Get ready for neon colors, iconic music, and totally tubular fun. Break out your leg warmers and join us for a blast from the past that you won't want to miss.",
+      "details": "Step back in time to the 1980s with our retro party! Get ready for neon colors, iconic music, and totally tubular fun. ",
+      "cover":"https://i.ibb.co/72DhDxD/pexels-mart-production-8885267.jpg",
       "categories": [
         {
           "title": "Neon Sunglasses",
@@ -312,7 +316,8 @@
   {
       "id": "k9n3g2o1",
       "title": "Karaoke Night",
-      "details": "Sing your heart out at our Karaoke Night! Gather your friends and family for a night of music, laughter, and unforgettable performances. Whether you're a superstar or just here for the fun, it's your time to shine on stage.",
+      "details": "Sing your heart out at our Karaoke Night! Gather your friends and family for a night of music, laughter, and unforgettable performances.",
+      "cover":"https://i.ibb.co/6HpfYf5/abstral-official-C3p6-IK6-DE4-unsplash.jpg",
       "categories":  [
         {
           "title": "Classic Karaoke Night",
@@ -392,7 +397,8 @@
   {
       "id": "m7t4e5g8",
       "title": "Engagement Party",
-      "details": "Announce your engagement in style! Our engagement party planning team will create an elegant and joyous event to celebrate your love story. From champagne toasts to heartfelt moments, it's the perfect start to your journey together.",
+      "details": "Announce your engagement in style! Our engagement party planning team will create an elegant event to celebrate your love story. ",
+      "cover":"https://i.ibb.co/4gZSPpL/andreas-ronningen-S2-Yss-Lw97l4-unsplash.jpg",
       "categories": [
         {
           "title": "Elegant Evening Engagement",

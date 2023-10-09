@@ -40,7 +40,7 @@ const Aboutmain = () => {
            {/* team */}
             <div className="space-y-9">
             <div className="text-center space-y-4"> 
-            <h2 className="text-3xl font-bold">
+            <h2 className="text-5xl font-bold">
             OUR TEAM
             </h2>
             <p>

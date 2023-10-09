@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/1vgh1Ym/download.jpg",
+        "vendor_name": "ABC Traders"
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/3h3rghJ/download-3.png",
+        "vendor_name": "XYZ LTD."
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/Z6LDrwH/images.jpg",
+        "vendor_name": "PQ Co."
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/6Rd8bMr/download-2.png",
+        "vendor_name": "LMN Co."
+    },
+    {
+        "id": 5,
+        "image": "https://i.ibb.co/chwbj4d/images-1.jpg",
+        "vendor_name": "Gold Harv"
+    },
+    {
+        "id": 6,
+        "image": "https://i.ibb.co/2vqG7vj/download-1.jpg",
+        "vendor_name": "Sunrise Agro"
+    },
+    {
+        "id": 7,
+        "image": "https://i.ibb.co/tzJMWYL/download.png",
+        "vendor_name": "Prime Foods"
+    },
+    {
+        "id": 8,
+        "image": "https://i.ibb.co/WnQ4sf6/download-1.png",
+        "vendor_name": "Best Textiles"
+    }
+]

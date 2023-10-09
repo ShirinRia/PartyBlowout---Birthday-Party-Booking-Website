@@ -1,17 +1,34 @@
 
+import { useLoaderData, useParams } from "react-router-dom";
+import Servicedetailscard from "./Servicedetailscard";
+import Rightsidenav from "./Rightsidenav/Rightsidenav";
 
 const Servicedetails = () => {
+    const alldetails = useLoaderData()
+    const {serviceid}=useParams();
+    // console.log(serviceid)
+    const servicedetails = alldetails.find(details => details.id===serviceid);
+  
+    const {categories}=servicedetails
     return (
+        <div className="max-w-7xl mx-auto flex justify-between">
+            <div className="w-2/3">
+             {
+                categories.map((category,idx)=><Servicedetailscard key={idx}
+                category={category}>
+
+                </Servicedetailscard>)
+             }
+            
+        </div>
         <div>
-        <h3 className="font-bold">
-        
-            title
-        </h3>
-        <figure>
-            <img src="" alt=""/>
-        </figure>
-            <p>details</p> 
-        
+            {
+                <Rightsidenav titles={alldetails}>
+
+                </Rightsidenav>
+            }
+        </div>
+    
     </div>
     );
 };

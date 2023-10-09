@@ -7,6 +7,7 @@ import Aboutmain from "../Layout/Pages/About/Aboutmain";
 import Reviews from "../Layout/Pages/Review/Reviews";
 import Faq from "../Layout/Pages/Faq/Faq";
 import Servicedetails from "../Layout/Pages/Services/Servicedetails";
+import Privateroute from "./Privaterout";
 
 const Route = createBrowserRouter([
     {
@@ -21,9 +22,11 @@ const Route = createBrowserRouter([
         },
         {
       
-          path: "/servicedetails/:id",
-          element: <Servicedetails />,
-          // loader:()=>fetch('/donationdata.json'),
+          path: "/servicedetails/:serviceid",
+          element:<Privateroute>
+         <Servicedetails />
+       </Privateroute> ,
+          loader:()=>fetch('/services.json'),
         },
         {
           path: "/login",

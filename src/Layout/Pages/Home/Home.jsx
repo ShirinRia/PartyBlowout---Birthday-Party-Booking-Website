@@ -1,3 +1,4 @@
+import Extrasection2 from "../Estrasection2/Extrasection2";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Services from "../Services/Services";
@@ -15,6 +16,9 @@ const Home = () => {
             <ExtraSection1>
                 
             </ExtraSection1>
+            <Extrasection2>
+                
+            </Extrasection2>
             <Footer>
 
             </Footer>

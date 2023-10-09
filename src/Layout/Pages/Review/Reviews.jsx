@@ -11,10 +11,10 @@ const Reviews = () => {
     const Karaoke=reviews.filter(kara => kara.category==='Karaoke Night')
     const Engagement=reviews.filter(eng => eng.category==='Engagement Party')
     return (
-        <div className="my-12">
+        <div className="my-12 max-w-7xl mx-auto">
            
            <div className="mt-16">
-           <h3 className="mb-5 text-5xl font-bold text-[#abce4e] text-center mb-8">
+           <h3 className="text-5xl font-bold text-[#abce4e] text-center mb-8">
            Wedding Reception
             </h3>
 
@@ -34,7 +34,7 @@ const Reviews = () => {
             </div>
            </div>
            <div className="mt-16">
-           <h3 className="mb-5 text-5xl font-bold text-[#abce4e] text-center mb-8">
+           <h3 className="text-5xl font-bold text-[#abce4e] text-center mb-8">
            Birthday Party
             </h3>
            <div className="flex gap-6">
@@ -51,7 +51,7 @@ const Reviews = () => {
            </div>
 
             <div className="mt-16">
-            <h3 className="mb-5 text-5xl font-bold text-[#abce4e] text-center mb-8">
+            <h3 className="text-5xl font-bold text-[#abce4e] text-center mb-8">
            Karaoke Night
             </h3>
             <div className="flex gap-6">
@@ -67,7 +67,7 @@ const Reviews = () => {
             </div>
             </div>
            <div className="mt-16">
-           <h3 className="mb-5 text-5xl font-bold text-[#abce4e] text-center mb-8">
+           <h3 className="text-5xl font-bold text-[#abce4e] text-center mb-8">
            80s Retro Party
             </h3>
            <div className="flex gap-6">
@@ -84,7 +84,7 @@ const Reviews = () => {
            </div>
            
                 <div className="mt-16">
-                <h3 className="mb-5 text-5xl font-bold text-[#abce4e] text-center mb-8">
+                <h3 className="text-5xl font-bold text-[#abce4e] text-center mb-8">
                 Engagement Party
             </h3>
                 <div className="flex gap-6">
@@ -101,7 +101,7 @@ const Reviews = () => {
                 </div>
            
             <div className="mt-16">
-            <h3 className="mb-5 text-5xl font-bold text-[#abce4e] text-center mb-8">
+            <h3 className="text-5xl font-bold text-[#abce4e] text-center mb-8">
             Anniversary Celebration
             </h3>
             <div className="flex gap-6">

@@ -4,7 +4,7 @@ import Allfooter from "../Allfooter/Allfooter";
 
 const Root = () => {
     return (
-        <div className="bg-black">
+        <div >
             <Navbar>
                 
             </Navbar>

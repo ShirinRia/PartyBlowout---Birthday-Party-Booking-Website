@@ -12,12 +12,20 @@ const Services = () => {
     },[])
 
     return (
-        <div className="grid grid-cols-3 gap-y-8 gap-x-4  max-w-7xl mx-auto">
+        <div>
+             <h2 className="text-5xl font-bold text-center mb-16">
+             Awesome Services
+            </h2>
+
+            <div className="grid grid-cols-3 gap-y-8 gap-x-4  max-w-7xl mx-auto">
+           
            { services.map(service => <Service key={service.id}
            service={service}>
 
            </Service>) }
         </div>
+        </div>
+       
     );
 };
 

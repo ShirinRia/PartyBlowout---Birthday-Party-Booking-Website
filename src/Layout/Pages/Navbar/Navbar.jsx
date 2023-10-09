@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useContext } from "react";
 import { Authcontext } from "../../../Provider/Provider";
 import './Navbar.css'
@@ -21,7 +21,7 @@ const Navbar = () => {
    
     </>
     return (
-        <div  className="max-w-7xl mx-auto">
+        <div  className="max-w-7xl mx-auto mb-8">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
     <div className="dropdown">
@@ -32,21 +32,27 @@ const Navbar = () => {
         {links}
       </ul>
     </div>
-    <a className="normal-case text-xl">BirthdayBlowout</a>
+    <a className="normal-case text-5xl font-bold">Party<span className="text-[#abce4e]">Blowout</span></a>
                     </div>
                     <div className="navbar-center hidden lg:flex">
-                        <ul className="menu-horizontal px-1">
+                        <ul className="menu-horizontal px-1 text-xl font-medium">
                         {links}
                         </ul>
                     </div>
                      <div className="navbar-end">
                     {
-                    user ?  
-                    <div>
-                        {user.email}
-                        <a onClick={handlelogout} href="/" className="btn">Sign Out</a>
-                    </div> 
-                    :  <NavLink to={'/login'} className="btn bg-[#abce4e] text-white"> Get Started </NavLink>
+                      
+                        user ?  
+                        <div className="flex items-center gap-3">
+                            <div className="w-10 rounded-full">
+              <img src={user.photoURL} className="w-full h-full rounded-full" />
+            </div>
+                            <a onClick={handlelogout} href="/login" className="btn hover:text-white hover:bg-[#abce4e] ">Sign Out</a>
+                        </div> 
+
+                        :  <Link to={'/login'} className="btn bg-[#abce4e] text-white hover:text-[#abce4e] hover:bg-white hover:outline hover:outline-offset-0 hover:outline-[#abce4e]"> Get Started </Link>
+                   
+                   
     }
                     </div> 
             </div>
