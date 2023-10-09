@@ -16,6 +16,8 @@ const Login = () => {
     console.log(logform.get('password'))
     const email=logform.get('email')
     const password=logform.get('password')
+    setlogerror('')
+
     signin(email,password)
     .then((userCredential) => {
       // Signed in 
@@ -39,7 +41,8 @@ const Login = () => {
       //   // Handle other errors (e.g., user not found, network issues, etc.) here
       //   console.error(errorMessage);
       // }
-      setlogerror(errorMessage);
+      if(errorMessage==="Firebase: Error (auth/invalid-login-credentials).")
+      setlogerror("Invalid Credential");
     });
 
   }

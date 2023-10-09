@@ -9,10 +9,10 @@ const Extrasection2 = () => {
         .then(data=>setinformation(data))
     },[])
     return (
-        <div className=" w-full px-  bg-[#FFECC6] bg-center bg-auto bg-no-repeat max-w-7xl mx-auto rounded-lg" style={{backgroundImage: 'url(https://point.moxcreative.com/beeparty/wp-content/uploads/sites/10/2022/05/split_3.png)'}}>
+        <div className=" w-full  bg-[#FFECC6] bg-center bg-auto bg-no-repeat max-w-7xl mx-4 md:mx-auto rounded-lg" style={{backgroundImage: 'url(https://point.moxcreative.com/beeparty/wp-content/uploads/sites/10/2022/05/split_3.png)'}}>
        
-      <div className="grid grid-cols-4 gap-12 
-       px-12 py-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 
+       px-8 py-8">
           {
             information.map(info=><Info key={info.id}
             information={info}></Info>)

@@ -9,7 +9,7 @@ const Faq = () => {
     const common=faqs.filter(popfaq => popfaq.tag==='common')
     // console.log(common)
     return (
-        <div className="my-14 space-y-14">
+        <div className="my-14 space-y-14 mx-4">
             <div className="">
             <h3 className="mb-5 text-5xl font-bold text-[#abce4e] text-center mb-8">
             Most Popular Questions

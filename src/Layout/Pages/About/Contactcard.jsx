@@ -6,8 +6,8 @@ import 'aos/dist/aos.css';
 
 const Contactcard = () => {
     return (
-        <div className="flex justify-between">
-            <div className="card w-72 bg-orange-200 shadow-xl" data-aos="zoom-in">
+        <div className="flex flex-col md:flex-row justify-between gap-6">
+            <div className="card md:w-72 bg-orange-200 shadow-xl" data-aos="zoom-in">
   <figure className="px-10 pt-10">
   < BiPhoneCall className='text-7xl' />
   </figure>
@@ -18,7 +18,7 @@ const Contactcard = () => {
   </div>
 </div>
 
-<div className="card w-72 shadow-xl bg-red-300" data-aos="zoom-in">
+<div className="card md:w-72 shadow-xl bg-red-300" data-aos="zoom-in">
 <figure className="px-10 pt-10">
   <AiOutlineMail className='text-7xl' />
   </figure>
@@ -29,7 +29,7 @@ const Contactcard = () => {
   </div>
 </div>
 
-<div className="card w-72 shadow-xl bg-amber-200" data-aos="zoom-in">
+<div className="card md:w-72 shadow-xl bg-amber-200" data-aos="zoom-in">
 <figure className="px-10 pt-10">
   <FaLocationDot className='text-7xl' />
   </figure>

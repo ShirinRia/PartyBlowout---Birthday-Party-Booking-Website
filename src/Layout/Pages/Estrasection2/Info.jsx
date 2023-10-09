@@ -3,7 +3,7 @@
 const Info = ({information}) => {
     const {title,amount}=information
     return (
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center gap-3">
            
             <p className="text-[#FEBF05] text-7xl font-extrabold">
                { amount}

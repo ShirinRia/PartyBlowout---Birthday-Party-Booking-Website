@@ -11,10 +11,10 @@ const Servicedetailscard = ({category}) => {
 <div className="card card-side bg-base-200 mb-8 w-full" >
 <figure><img className="w-[150px] md:w-[220px] h-full" src="{image}" alt="Movie"/></figure>
     <div className="card-body w-max">
-   <div className='flex items-center relative'>
+   <div className='flex flex-col md:flex-row items-center relative mb-8'>
    <h2 className="card-title text-2xl font-semibold"> {title}
     </h2>
-    <p className="text-2xl font-bold text-[#abce4e] absolute right-0">
+    <p className="text-2xl font-bold text-[#abce4e] absolute top-10 right-0">
         {price}
     </p>
    </div>

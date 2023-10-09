@@ -11,8 +11,8 @@ const Servicedetails = () => {
   
     const {categories}=servicedetails
     return (
-        <div className="max-w-7xl mx-auto flex justify-between">
-            <div className="w-2/3">
+        <div className="max-w-7xl mx-4  md:mx-auto flex flex-col-reverse md:flex-row justify-between gap-12">
+            <div className="w-full md:w-2/3">
              {
                 categories.map((category,idx)=><Servicedetailscard key={idx}
                 category={category}>
