@@ -17,8 +17,15 @@ const Navbar = () => {
             <li className="mr-4"><NavLink to={'/'}>Home</NavLink></li>
             <li className="mr-4"><NavLink to={'/about'}>About Us</NavLink></li>
             <li className="mr-4"><NavLink to={'/reviews'}>Reviews</NavLink></li>
-            <li className="mr-4"><NavLink to={'/faq'}>Magic Walls</NavLink></li>
-   
+          
+            {
+      user && 
+      <>
+        <li className="mr-4"><NavLink to={'/faq'}>Magic Walls</NavLink></li>
+       <li><NavLink to={'/profile'}>Profile</NavLink></li>
+       
+      </>
+    }
     </>
     return (
         <div  className="max-w-7xl mx-auto mb-8">

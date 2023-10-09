@@ -8,12 +8,14 @@ import Reviews from "../Layout/Pages/Review/Reviews";
 import Faq from "../Layout/Pages/Faq/Faq";
 import Servicedetails from "../Layout/Pages/Services/Servicedetails";
 import Privateroute from "./Privaterout";
+import Profile from "../Layout/Pages/Profile/Profile";
+import Errorpage from "../Layout/Pages/Errorpage/Errorpage";
 
 const Route = createBrowserRouter([
     {
       path: "/",
       element: <Root />,
-    //errorElement: <ErrorPage />,
+    errorElement: <Errorpage />,
       children: [
         {
           path: "/",
@@ -51,7 +53,13 @@ const Route = createBrowserRouter([
           element: <Faq/>,
           loader:() =>fetch('/faq.json'),
         },
-        
+        {
+          path: "/profile",
+          element: <Privateroute>
+            <Profile/>
+          </Privateroute>
+          ,
+        },
       ],
     },
   ]);

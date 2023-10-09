@@ -1,11 +1,12 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { Authcontext } from "../../../Provider/Provider";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import {FcGoogle} from 'react-icons/fc';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
+  const [logerror,setlogerror]=useState('')
   const {signin, signgoogle}=useContext(Authcontext)
   const navigate=useNavigate()
   const location=useLocation()
@@ -25,14 +26,22 @@ const Login = () => {
         navigate(location?.state ? location.state : '/')
       }, 6000);
      
-     
-      // navigate( '/')
-      
-      // ...
     })
     .catch((error) => {
-      console.log(error.message);
+      console.log(error);
+      // console.log(error.message);
+      const errorCode = error.code;
+      const errorMessage = error.message;
+      // if (errorCode === 'auth/wrong-password') {
+      //   // Handle password mismatch error here
+      //   console.log('Password doesn\'t match.');
+      // } else {
+      //   // Handle other errors (e.g., user not found, network issues, etc.) here
+      //   console.error(errorMessage);
+      // }
+      setlogerror(errorMessage);
     });
+
   }
   const handlegoogle=()=>{
     signgoogle()
@@ -41,7 +50,10 @@ const Login = () => {
       // The signed-in user info.
       const user = result.user;
       console.log(user)
-      toast("Registered With Google")
+      toast("Login With Google")
+      setTimeout(() => {
+        navigate(location?.state ? location.state : '/')
+      }, 4000);
       
     }).catch((error) => {
      
@@ -60,6 +72,12 @@ const Login = () => {
       <Link to={'/register'} className="btn bg-white text-[#04364A] text-xl">Sign Up</Link>
     </div>
     <div className="card flex-grow w-full  bg-base-100 text-center">
+    {
+      logerror && <div className="alert alert-error">
+                <svg xmlns="http://www.w3.org/2000/svg" className="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                <span>Error! {logerror}</span>
+              </div>
+            }
     <h3 className="text-[#04364A] text-5xl font-extrabold"> Login to Your Account</h3>
       <form className="card-body" onSubmit={handlelogin}>
        

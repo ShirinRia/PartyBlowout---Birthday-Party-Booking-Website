@@ -1,4 +1,6 @@
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import {FcCheckmark} from 'react-icons/fc'
 
 const Servicedetailscard = ({category}) => {
@@ -21,7 +23,8 @@ const Servicedetailscard = ({category}) => {
                {features.map((feature,idx)=><li key={idx} className='flex items-center gap-1'> <FcCheckmark className='font-bold'></FcCheckmark> {feature}</li>)}
             </ul>
         <div className="card-actions w-full" >
-        <button className="btn bg-[#abce4e]  w-full text-white border-none hover:text-[#abce4e] hover:bg-white hover:outline hover:outline-offset-0 hover:outline-[#abce4e]" >Book Now</button>
+        <button onClick={()=>toast(`"You have booked" ${title}`)} className="btn bg-[#abce4e]  w-full text-white border-none hover:text-[#abce4e] hover:bg-white hover:outline hover:outline-offset-0 hover:outline-[#abce4e]" >Book Now</button>
+        <ToastContainer/>
     </div>
 </div>
 </div>
