@@ -4,12 +4,12 @@ import 'react-toastify/dist/ReactToastify.css';
 import {FcCheckmark} from 'react-icons/fc'
 
 const Servicedetailscard = ({category}) => {
-    const {title,price,features}=category
+    const {title,price,features,image}=category
     return (
        
 
 <div className="card card-side bg-base-200 mb-8 w-full" >
-<figure><img className="w-[150px] md:w-[220px] h-full" src="{image}" alt="Movie"/></figure>
+<figure><img className="w-[150px] md:w-[320px] h-full" src={image} alt="Movie"/></figure>
     <div className="card-body w-max">
    <div className='flex flex-col md:flex-row items-center relative mb-8'>
    <h2 className="card-title text-2xl font-semibold"> {title}
