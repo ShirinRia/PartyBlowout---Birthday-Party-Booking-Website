@@ -26,7 +26,7 @@ const Login = () => {
       toast("Successfully Login")
       setTimeout(() => {
         navigate(location?.state ? location.state : '/')
-      }, 6000);
+      }, 3000);
      
     })
     .catch((error) => {
@@ -34,6 +34,7 @@ const Login = () => {
       // console.log(error.message);
       const errorCode = error.code;
       const errorMessage = error.message;
+      console.log(errorCode);
       // if (errorCode === 'auth/wrong-password') {
       //   // Handle password mismatch error here
       //   console.log('Password doesn\'t match.');
@@ -56,7 +57,7 @@ const Login = () => {
       toast("Login With Google")
       setTimeout(() => {
         navigate(location?.state ? location.state : '/')
-      }, 4000);
+      }, 3000);
       
     }).catch((error) => {
      

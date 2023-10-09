@@ -1,7 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import About from "./About";
-import one from '../../../assets/1.jpg'
-import AOS from 'aos';
+import one from '../../../assets/history.jpg'
+
 import 'aos/dist/aos.css';
 import Contactcard from "./Contactcard";
 const Aboutmain = () => {
@@ -21,18 +21,18 @@ const Aboutmain = () => {
   </div>
             </div>
        {/* history */}
-             <div className="space-y-9 max-w-5xl mx-0 md:mx-auto my-9">
+             <div className="space-y-9 max-w-7xl mx-0 md:mx-auto my-9">
             <div>
             <h2 className="text-3xl font-bold text-center">
             Your Celebration, Our Expertise
             </h2>
-            <div className="flex flex-col md:flex-row justify-between my-5">
-                <div className="text-center lg:text-justify md:w-1/2" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-sine" data-aos-delay="100">
+            <div className="flex flex-col md:flex-row justify-between my-5 gap-12">
+                <div className="flex-grow text-center lg:text-justify md:w-1/2" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-sine" data-aos-delay="100">
                     <p className="py-6">Welcome to PartyPerfect Pro, where celebrations become unforgettable memories! Our mission is to transform your dreams into reality by crafting exceptional and immersive event experiences that leave you and your guests in awe.At PartyPerfect Pro, we believe that every event is a unique story waiting to be told. Our vision is to be the go-to party event management company that not only meets but exceeds your expectations, creating moments of pure joy and delight. From birthday parties to weddings events and everything in between, PartyPerfect Pro is your partner in celebration. We invite you to explore our world of creativity, precision, and dedication to create the perfect event that you and your guests will cherish forever. Join us in making memories that will last a lifetime!
                     </p>
                 </div>
                 <div className="" data-aos="fade-left" data-aos-duration="2000" data-aos-easing="ease-in-sine" data-aos-delay="100">
-                    <img src={one} alt="" className="w-full h-full" />
+                    <img src={one} alt="" className="w-[1/2] h-[320px]" />
                 </div>
             </div>
             </div>

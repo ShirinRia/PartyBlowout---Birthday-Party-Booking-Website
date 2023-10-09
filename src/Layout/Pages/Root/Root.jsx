@@ -12,7 +12,9 @@ const Root = () => {
             <Outlet>
 
             </Outlet>
-            <Allfooter></Allfooter>
+            <Allfooter>
+                
+            </Allfooter>
         </div>
     );
 };

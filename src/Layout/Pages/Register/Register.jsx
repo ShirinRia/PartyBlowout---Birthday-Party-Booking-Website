@@ -31,7 +31,7 @@ const Register = () => {
     setregerror("Password should have a capital letter")
     return;
 }
-else if(!/[!@#$%^&*()_+{}\[\]:;<>,.?~\\|-]/.test(password)){
+else if(!/[!@#$%^&*()_+{}[\]:;<>,.?~\\|-]/.test(password)){
   setregerror("Password should have a Special Character")
   return;
 }
@@ -52,8 +52,8 @@ else if(!/[!@#$%^&*()_+{}\[\]:;<>,.?~\\|-]/.test(password)){
       .then(() => {
         // Profile updated!
         setTimeout(() => {
-          navigate("/login");
-        }, 6000);
+          navigate("/");
+        }, 4000);
         // ...
       }).catch((error) => {
        
@@ -114,7 +114,7 @@ else if(!/[!@#$%^&*()_+{}\[\]:;<>,.?~\\|-]/.test(password)){
         </div>
         <div className="form-control">
          
-          <input type="text" placeholder="photo" name="photo" className="input input-bordered" />
+          <input type="url" placeholder="photo" name="photo" className="input input-bordered" />
         </div>
         <div className="form-control">
          

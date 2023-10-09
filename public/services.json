@@ -4,6 +4,7 @@
       "title": "Birthday Party",
       "details": "Celebrate a fantastic birthday party with us filled with games, decorations, and delicious cakes to make your day unforgettable!",
       "cover":"https://i.ibb.co/Bt7YX1S/pexels-ivan-samkov-8104206.jpg",
+      "PriceRange":"$250-350",
       "categories":[
         {
             "title": "Park Picnic Birthday",
@@ -82,6 +83,7 @@
       "title": "Wedding Reception",
       "details": "Make your wedding reception an enchanting event filled with love, laughter, and beautiful memories.",
       "cover":"https://i.ibb.co/vL1z1HD/pexels-viresh-studio-2060240.jpg",
+      "PriceRange":"$7,000-15000",
       "categories":[
         {
             "title": "Beach Wedding Package",
@@ -154,6 +156,7 @@
       "title": "Anniversary Celebration",
       "details": "Celebrate years of love with a celebration that captures your unique journey and ensure your special day is as memorable as your love story.",
       "cover": "https://i.ibb.co/1RTYZZS/pexels-nataliya-vaitkevich-7826296.jpg",
+      "PriceRange":"$800-3000",
       "categories": [
         {
           "title": "Silver Anniversary Package",
@@ -243,6 +246,7 @@
       "title": "80s Retro Party",
       "details": "Step back in time to the 1980s with our retro party! Get ready for neon colors, iconic music, and totally tubular fun. ",
       "cover":"https://i.ibb.co/72DhDxD/pexels-mart-production-8885267.jpg",
+      "PriceRange":"$09-34",
       "categories": [
         {
           "title": "Neon Sunglasses",
@@ -319,10 +323,11 @@
       "title": "Karaoke Night",
       "details": "Sing your heart out at our Karaoke Night! Gather your friends and family for a night of music, laughter, and unforgettable performances.",
       "cover":"https://i.ibb.co/6HpfYf5/abstral-official-C3p6-IK6-DE4-unsplash.jpg",
+      "PriceRange":"$20-35",
       "categories":  [
         {
           "title": "Classic Karaoke Night",
-          "price": 25.99,
+          "price": "$25.99",
           "image": "https://i.ibb.co/zJjj6Jx/Whats-App-Image-2023-10-09-at-21-36-34.jpg",
           "features": [
             "Access to a vast library of classic karaoke songs",
@@ -334,7 +339,7 @@
         },
         {
           "title": "Rock 'n' Roll Karaoke Night",
-          "price": 29.99,
+          "price": "$29.99",
           "image": "https://i.ibb.co/hcCjXbb/Whats-App-Image-2023-10-09-at-21-36-37.jpg",
           "features": [
             "Live band accompaniment for a rockstar experience",
@@ -346,7 +351,7 @@
         },
         {
           "title": "80s Karaoke Night",
-          "price": 22.99,
+          "price": "$22.99",
           "image": "https://i.ibb.co/TLCtyWm/Whats-App-Image-2023-10-09-at-21-36-36.jpg",
           "features": [
             "A journey back in time with the best hits from the 80s",
@@ -358,7 +363,7 @@
         },
         {
           "title": "Country Karaoke Night",
-          "price": 27.99,
+          "price": "$27.99",
           "image": "https://i.ibb.co/XFnMH07/Whats-App-Image-2023-10-09-at-21-36-37-1.jpg",
           "features": [
             "Live acoustic band playing country classics",
@@ -370,7 +375,7 @@
         },
         {
           "title": "Pop Diva Karaoke Night",
-          "price": 24.99,
+          "price": "$24.99",
           "image": "https://i.ibb.co/nchH9kZ/Whats-App-Image-2023-10-09-at-21-36-38.jpg",
           "features": [
             "Show off your inner pop diva with chart-topping hits",
@@ -382,7 +387,7 @@
         },
         {
           "title": "Latin Fiesta Karaoke Night",
-          "price": 31.99,
+          "price": "$31.99",
           "image": "https://i.ibb.co/28mg1Rn/Whats-App-Image-2023-10-09-at-21-36-39.jpg",
           "features": [
             "Salsa, merengue, reggaeton, and more Latin hits",
@@ -400,6 +405,7 @@
       "title": "Engagement Party",
       "details": "Announce your engagement in style! Our engagement party planning team will create an elegant event to celebrate your love story. ",
       "cover":"https://i.ibb.co/4gZSPpL/andreas-ronningen-S2-Yss-Lw97l4-unsplash.jpg",
+      "PriceRange":"$2,000-5000",
       "categories": [
         {
           "title": "Elegant Evening Engagement",

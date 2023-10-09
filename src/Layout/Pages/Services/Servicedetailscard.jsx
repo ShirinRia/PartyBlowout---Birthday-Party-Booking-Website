@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types'; // ES6
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {FcCheckmark} from 'react-icons/fc'
@@ -30,5 +30,7 @@ const Servicedetailscard = ({category}) => {
 </div>
     );
 };
-
+Servicedetailscard.propTypes = {
+    category:PropTypes.object,
+};
 export default Servicedetailscard;
